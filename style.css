@@ -1,0 +1,1405 @@
+div[data-v-3f173500] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-3f173500] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-3f173500] {
+  justify-content: center;
+}
+.fura-right div[data-v-3f173500] {
+  justify-content: flex-end;
+}
+div .detailsCellBoolean-true[data-v-3f173500] {
+  color: var(--theme-primary, #0078d4);
+  font-size: 16px;
+  font-weight: 600;
+}
+div .detailsCellBoolean-false[data-v-3f173500] {
+  color: var(--neutral-quaternary, #d2d0ce);
+  font-size: 16px;
+}
+
+div[data-v-2f45898e] {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px 0;
+}
+div.formFieldBoolean-left[data-v-2f45898e] {
+  justify-content: flex-start;
+}
+div.formFieldBoolean-center[data-v-2f45898e] {
+  justify-content: center;
+}
+div.formFieldBoolean-right[data-v-2f45898e] {
+  justify-content: flex-end;
+}
+
+div[data-v-1198e7f8] {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px 0;
+}
+
+div[data-v-29f5092a] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-29f5092a] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-29f5092a] {
+  justify-content: center;
+}
+.fura-right div[data-v-29f5092a] {
+  justify-content: flex-end;
+}
+
+.field[data-v-ce6a5b82] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-1980b3b4] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-52de4e9c] .fura-elementWrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-e6e02e5c] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+div[data-v-e9d017ea] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+}
+.fura-left div[data-v-e9d017ea] {
+  justify-content: flex-start;
+}
+.fura-center div[data-v-e9d017ea] {
+  justify-content: center;
+}
+.fura-right div[data-v-e9d017ea] {
+  justify-content: flex-end;
+}
+div .detailsCellFile[data-v-e9d017ea] {
+  font-size: 16px;
+}
+
+.field[data-v-3746c692] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-bccf8768] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-a34b1a5c] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-754a3117] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-794c5b06] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+.field[data-v-2a27fa3a] .fura-wrapper::after {
+  right: 0px !important;
+}
+
+
+.AGENT-editItem-layout[data-v-99e4ebae] {
+  display: grid;
+  grid-template-columns: 20% 25% 25% 13% 13%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "CODI             TITLE           TITLE           ID_TIPUSAGENT    ID_TIPUSAGENT"
+    "AGENTOROL        AGENT_FORMATPER AGENT_FORMATPER AGENT_FORMATPER  AGENT_FORMATPER"
+    "TIPUSDEPENDENCIA ID_DEPENDE      ID_DEPENDE      ID_DEPENDE       ID_DEPENDE"
+    "CONTACTE         CONTACTE        MAILCONTACTE    MAILCONTACTE     MAILCONTACTE"
+    ".                .               .               ALTA             BAIXA"
+    "errorMessage     errorMessage    errorMessage    errorMessage     errorMessage";
+}
+
+
+
+.alta[data-v-3288286c] {
+    margin-top: 8px;
+}
+
+
+.RELACIO-edit-layout[data-v-3288286c] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DADAELEMENTAL-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 3fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "TITLE                            TITLE                           TITLE                             ID_TIPUSDADA"
+      "DADAELEMENTAL_INTEROPERABILITAT  DADAELEMENTAL_INTEROPERABILITAT DADAELEMENTAL_INTEROPERABILITAT   ID_OBJECTEDADA"
+      ".                                .                               .                                 NIVELLDESEGURETAT"
+      "errorMessage                     errorMessage                    errorMessage                      errorMessage"
+  }
+
+.DISPOSICIONORMATIVA-editItem-layout[data-v-1cf08b05] {
+  display: grid;
+  grid-template-columns: 2fr 2fr 8fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "CODI          TITLE         TITLE"
+    "NOMLLARG      NOMLLARG      NOMLLARG"
+    "RANG          AMBIT         URLDISPOSICIO"
+    "ALTA          BAIXA         ."
+    "errorMessage  errorMessage  errorMessage"
+}
+
+
+.DISPOSICIONORMATIVA-TRACTAMENTDADESPERSONALS-editItem-layout[data-v-34d18808] {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 2fr 2fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_DISPOSICIONORMATIVA    ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
+    "TITLE                     TITLE                    TITLE                    TITLE                    TITLE"
+    "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
+    "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
+    "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
+    "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
+    "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
+    "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
+}
+
+
+.EVIDENCIA-editItem-layout[data-v-c6ceca4c] {
+  display: grid;
+  grid-template-columns: 17% 15% 22% 17% 15% 15%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
+    "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ."
+    "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
+    "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
+    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
+    ".                    .                         .                         .                          ALTA                       BAIXA"
+    "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
+}
+
+
+
+.alta[data-v-0ec929a4] {
+    margin-top: 8px;
+}
+
+
+.RELACIO-edit-layout[data-v-0ec929a4] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.INTERFICIECONNEXIO-editItem-layout[data-v-9bf8f21c] {
+    display: grid;
+    grid-template-columns: 15% 15% 22% 22% 22%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES     INTERFICIECONNEXIO_TIPUSDADES"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .                                 ."
+      "errorMessage                      errorMessage                      errorMessage                      errorMessage                      errorMessage"
+      "INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT     INTERFICIECONNEXIO_ATTACHMENT";
+}
+
+
+.MODELDOCUMENT-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 900px;  grid-template-columns: 3fr 1fr 2fr 2fr 2fr 2fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "CODI                       VERSIO                     TITLE                      TITLE                      TITLE                      TITLE"
+      "ID_TIPUS                   ID_FORMAT                  .                          FIDESENVOLUPAMENT          ACCEPTACIO                 POSSADAPRODUCCIO"
+      "URL                        URL                        URL                        URL                        ALTA                       BAIXA"
+      "MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT   MODELDOCUMENT_ATTACHMENT"
+      "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage               errorMessage"
+  }
+.OBJECTEDADA-editItem-layout {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 90%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "TITLE"
+    "TIPUS"
+    "SUPEROBJECTE"
+    "errorMessage"
+}
+
+
+.PROCES-editItem-layout[data-v-24f2d710] {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  grid-template-columns: 12% 12% 18% 15% 12% 15%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "CODI                TITLE               TITLE                TITLE                TIPUS                  TIPUS"
+    "ID_TIPUSRESPONSABLE ID_TIPUSRESPONSABLE  ID_RESPONSABLE      ID_RESPONSABLE       ID_RESPONSABLE         AMBIT"
+    "ID_FAMILIA          ID_FAMILIA          ID_TIPUSINICIACIO    ID_TIPUSFINALITZACIO ID_TIPUSFINALITZACIO   ID_TIPUSFINALITZACIO"
+    "ID_FAMILIAOPAE      ID_FAMILIAOPAE      ID_TIPUSRECURSPROCES ID_TIPUSRECURSPROCES MACROPROCES            NECESSITATDEPAGAMENT"
+    "PROCES_DISPOSICIO   PROCES_DISPOSICIO   PROCES_DISPOSICIO    URLDIAGRAMA          URLDIAGRAMA            URLDIAGRAMA"
+    "DESTINATARIS        DESTINATARIS        DESTINATARIS         DESTINATARIS         ALTA                   BAIXA"
+    "errorMessage        errorMessage        errorMessage         errorMessage         errorMessage           errorMessage";
+}
+
+
+
+.PROCES-TASCA-editItem-layout[data-v-1a9dff61] {
+  padding: 4px;
+  width: 1050px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES               ID_PROCES               ID_PROCES"
+    "CODI                    TITLE                   TITLE"
+    "ID_FORMABPMN            NOMCURT                 NOMCURT"
+    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
+    "ID_TIPUSTASCA           TASCA_PRECEDENT         LINKTITLE"
+    "TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA"
+    "TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA"
+    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
+    "errorMessage            errorMessage            errorMessage";
+}
+
+
+
+.PROCES-EVIDENCIA-editItem-layout[data-v-38c8aeee] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES           ID_PROCES                ID_PROCES                ID_PROCES                ID_PROCES"
+    "CODI                TITLE                    TITLE                    TIPUS                    CARACTER"
+    "ID_SERIEDOCUMENTAL  ID_SERIEDOCUMENTAL       ID_SERIEDOCUMENTAL       REGISTREENTRADA          REGISTRESORTIDA"
+    "ID_TIPUSPRODUCTOR   ID_PRODUCTOR             ID_PRODUCTOR             AUTENTIFICACIO           AUTENTIFICACIO"
+    "ID_TIPUSDESTINATARI ID_DESTINATARI           ID_DESTINATARI           ID_FORMAT                ESSENCIAL"
+    "ID_SISTEMA          ID_SISTEMA               ID_DEPENDENCIA           ID_DEPENDENCIA           ID_DEPENDENCIA"
+    "ID_TIPUSMODEL       EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT  EVIDENCIA_MODELDOCUMENT"
+    ".                   .                        .                        ALTA                     BAIXA"
+    "errorMessage        errorMessage             errorMessage             errorMessage             errorMessage";
+}
+
+
+
+.PROCES-SERIEDOCUMENTAL-editItem-layout[data-v-7d9d90e6] {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
+    "CODI                        TITLE                       TITLE                       TITLE                       DIGITAL               VITAL"
+    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU             TITOLCORPORATIU             CARACTER              CARACTER"
+    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR                ID_PRODUCTOR                CRITERINORMALITZACIO  CRITERINORMALITZACIO"
+    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ALTA                  BAIXA"
+    "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
+}
+
+
+.PROCES-PROCES-editItem-layout[data-v-d2999476] {
+  width: 780px;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.PROCES-INDICADOR-editItem-layout[data-v-58ca086b] {
+  max-width: 870px;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES          ID_PROCES"
+    "ID_TIPUSINDICADOR  TITLE"
+    "PERIODICITATMESURA PERIODICITATMESURA"
+    "CONCEPTE           CONCEPTE"
+    "DESCRIPCIO         DESCRIPCIO"
+    "FORMULADECALCUL    FORMULADECALCUL"
+    "errorMessage       errorMessage";
+}
+
+
+.INDICADOR-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_PROCES       ID_PROCES        ID_TIPUSINDICADOR"
+      "TITLE           TITLE            PERIODICITATMESURA"
+      "CONCEPTE        CONCEPTE         CONCEPTE"
+      "DESCRIPCIO      DESCRIPCIO       DESCRIPCIO"
+      "FORMULADECALCUL FORMULADECALCUL  FORMULADECALCUL"
+      "ALTA            BAIXA            ."
+      "errorMessage    errorMessage     errorMessage";
+  }
+
+.QUADRECOMANDAMENT-editItem-layout[data-v-291aa364] {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 5fr 2fr 2fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "CODI                       TITLE                      TITLE                      TITLE                      TITLE"
+      "ID_TIPUSQUADRE             FINALITAT                  FINALITAT                  FINALITAT                  FINALITAT"
+      "QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI   QUADRECOMANDAMENT_USUARI"
+      "DESTINATARIS               DESTINATARIS               DESTINATARIS               ALTA                       BAIXA"
+      "errorMessage               errorMessage               errorMessage               errorMessage               errorMessage";
+}
+
+
+
+.REGLAACCES-editItem-layout[data-v-58642a5a] {
+  display: grid;
+  grid-template-columns: 12% 12% 9% 54% 12%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL    NUMERO"
+    "INICI                INICI                  TERMINI               TERMINI               TERMINI"
+    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO             RESOLUCIO"
+    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT              ID_AGENT"
+    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO      CRITERIAPLICACIO"
+    "CRITERIPUBLICITAT    CRITERIPUBLICITAT      CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
+    "ALTA                 BAIXA                  .                     .                     .";
+}
+
+
+.REGLACONSERVACIO-editItem-layout[data-v-29ef8ad1] {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 25% 25% 10% 15% 15% 15%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
+      "ESDEVENIMENTINICI     ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI                TERMINI                 TERMINI"
+      "RESOLUCIO             ID_FORMATDESTI         ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI         ID_DIPOSITDESTI"
+      "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
+      "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
+      "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
+      ".                     .                      .                      .                      ALTA                    BAIXA";
+}
+
+
+.SERIEDOCUMENTAL-editItem-layout[data-v-772bd458] {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES                   ID_PROCES             ID_PROCES"
+    "CODI                        TITLE                       TITLE                       TITLE                       DIGITAL               VITAL"
+    "CLASSIFICACIO               TITOLCORPORATIU             TITOLCORPORATIU             TITOLCORPORATIU             CARACTER              CARACTER"
+    "ID_TIPUSPRODUCTOR           ID_PRODUCTOR                ID_PRODUCTOR                ID_PRODUCTOR                CRITERINORMALITZACIO  CRITERINORMALITZACIO"
+    "ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ID_TRACTAMENTDADESPERSONALS ALTA                  BAIXA"
+    "errorMessage                errorMessage                errorMessage                errorMessage                errorMessage          errorMessage";
+}
+
+
+.SERIE-DEPENDENCIES-edit-layout[data-v-ce481456] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.SERIEDOCUMENTAL-EVIDENCIA-editItem-layout[data-v-ee6d0b46] {
+  display: grid;
+  grid-template-columns: 17% 15% 20% 17% 14% 14%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES            ID_PROCES                 ID_PROCES                 CODI                       CARACTER                   ESSENCIAL"
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL        ID_SERIEDOCUMENTAL        AUTENTIFICACIO             ID_FORMAT                  ID_FORMAT"
+    "TITLE                TITLE                     TITLE                     TIPUS                      REGISTREENTRADA            REGISTRESORTIDA"
+    "ID_TIPUSPRODUCTOR    ID_PRODUCTOR              ID_PRODUCTOR              ID_TIPUSDESTINATARI        ID_DESTINATARI             ID_DESTINATARI"
+    "ID_SISTEMA           ID_SISTEMA                ID_SISTEMA                ID_DEPENDENCIA             ID_DEPENDENCIA             ID_DEPENDENCIA"
+    "ID_TIPUSMODEL        ID_TIPUSMODEL             EVIDENCIA_MODELDOCUMENT   EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT    EVIDENCIA_MODELDOCUMENT"
+    ".                    .                         .                         .                          ALTA                       BAIXA"
+    "errorMessage         errorMessage              errorMessage              errorMessage               errorMessage               errorMessage";
+}
+
+
+
+.SERIE-REGLAACCES-editItem-layout[data-v-0b850261] {
+  display: grid;
+  grid-template-columns: 12% 12% 63% 10%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_SERIEDOCUMENTAL   ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL    NUMERO"
+    "INICI                INICI                  TERMINI               TERMINI"
+    "ID_MOTIULIMITACIO    ID_MOTIULIMITACIO      RESOLUCIO             RESOLUCIO"
+    "ID_TIPUSAGENT        ID_TIPUSAGENT          ID_AGENT              ID_AGENT"
+    "CRITERIAPLICACIO     CRITERIAPLICACIO       CRITERIAPLICACIO      CRITERIAPLICACIO"
+    "CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT     CRITERIPUBLICITAT"
+    "ALTA                 BAIXA                  .                     .";
+}
+
+
+.SERIE-REGLACONSERVACIO-editItem-layout[data-v-46b07fcf] {
+  display: grid;
+  grid-template-columns: 20% 20% 10% 15% 15% 15%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_SERIEDOCUMENTAL    ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL     ID_SERIEDOCUMENTAL      NUMEROREGLA"
+    "ESDEVENIMENTINICI     ESDEVENIMENTINICI      ESDEVENIMENTINICI      TERMINI                TERMINI                 TERMINI"
+    "RESOLUCIO             ID_FORMATDESTI         ID_FORMATDESTI         SUPORTDESTI            ID_DIPOSITDESTI         ID_DIPOSITDESTI"
+    "ID_SISTEMAINFORMACIO  ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO   ID_SISTEMAINFORMACIO    ID_SISTEMAINFORMACIO"
+    "FONTREGLA             FONTREGLA              FONTREGLA              FONTREGLA              FONTREGLA               FONTREGLA"
+    "CRITERIMOSTREIG       CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG        CRITERIMOSTREIG         CRITERIMOSTREIG"
+    ".                     .                      .                      .                      ALTA                    BAIXA";
+}
+
+
+.SISTEMAINFORMACIO-editItem-layout[data-v-666fb3a4] {
+    max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 12% 25% 10% 10% 10% 10% 10% 3% 18%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "TITLE                              TITLE                              TITLE                              CODI                     URL                      URL                      URL                                URL                                NOMCURT"
+      "ID_TIPUSPROMOTOR                   ID_PROMOTOR                        ID_PROMOTOR                        RESPFUNCIONAL            RESPFUNCIONAL            RESPFUNCIONAL            GESTORTIC                          GESTORTIC                          GESTORTIC"
+      "LOTCPD                             ID_PROVEIDOR                       ID_PROVEIDOR                       SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORN SISTEMAINFORMACIO_ENTORNTECNOLOGIC SISTEMAINFORMACIO_ENTORNTECNOLOGIC SISTEMAINFORMACIO_ENTORNTECNOLOGIC"
+      "CODISERVEICPD                      ID_MODELDESERVEI                   ID_MODELDESERVEI                   ABAST                    ABAST                    ABAST                    CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU            CODICLIENTADMINISTRATIU"
+      "RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES            RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  RESTRICCIONSSEMANTIQUES  ID_CONTROLACCES                    ID_CONTROLACCES                    ID_CONTROLINTEGRITAT"
+      "SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO SISTEMAINFORMACIO_UNITATDESCRIPCIO RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RESTRICCIONSFORMAT       RTO                                RTO                                RPO"
+      "ID_CLASSIFICACIOENS                ID_CLASSIFICACIOENS                DIALEGCTTI                         ANS                      ANS                      NAQ                      NAQ                                NAQ                                DATAINICIPRODUCCIO"
+      ".                                  .                                  .                                  .                        .                        .                        ALTA                               ALTA                               BAIXA"
+      "errorMessage                       errorMessage                       errorMessage                       errorMessage             errorMessage             errorMessage             errorMessage                       errorMessage                       errorMessage";
+}
+
+
+
+.SISTEMAINFORMACIO-INDICADORSISTEMA-editItem-layout[data-v-32c4c3b6] {
+    padding: 4px;
+    margin-top: 2px;
+    margin-left: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMA            ID_SISTEMA"
+      "ID_TIPUSINDICADOR     TITLE"
+      "PERIODICITATMESURA    PERIODICITATMESURA"
+      "CONCEPTE              CONCEPTE"
+      "DESCRIPCIO            DESCRIPCIO"
+      "FORMULADECALCUL       FORMULADECALCUL"
+      "errorMessage          errorMessage";
+}
+
+
+.alta[data-v-3487cec9] {
+    margin-top: 8px;
+}
+
+
+.SISTEMA-INTERFICIECONNEXIO-CARREGA-editItem-layout[data-v-3487cec9] {
+    display: grid;
+    width: '1200px';
+    grid-template-columns: repeat(4, 3fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .";
+}
+
+
+.alta[data-v-d76d9ba0] {
+    margin-top: 8px;
+}
+
+
+.SISTEMA-DESTI-editItem-layout[data-v-d76d9ba0] {
+    display: grid;
+    width: '1200px';
+    max-width: '1200px';
+    grid-template-columns: repeat(4, 3fr);
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO              ID_SISTEMAINFORMACIO"
+      "ID_TIPUSINTERFICIE                TITLE                             TITLE                             TITLE"
+      "ID_TIPUSIMPORTACIO                ID_PROCEDIMENTIMPORTACIO          ID_PERIODEACTUALITZACIO           ID_HISTORIFICACIO"
+      "ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES             ID_SISTEMAORIGENDADES"
+      "NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA                   NOMARXIUCARREGA"
+      "OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS                      OBSERVACIONS"
+      "ALTA                              BAIXA                             .                                 .";
+}
+
+
+.SISTEMAINFORMACIO_INDICADOR-edit-layout[data-v-70edc4b0] {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1100px;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_SISTEMA       ID_TIPUSINDICADOR"
+    "TITLE            PERIODICITATMESURA"
+    "CONCEPTE         CONCEPTE"
+    "DESCRIPCIO       DESCRIPCIO"
+    "FORMULADECALCUL  FORMULADECALCUL"
+    "errorMessage     errorMessage";
+}
+
+
+.TASCA-editItem-layout[data-v-716e3aa4] {
+  padding: 4px;
+  width: 1050px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: grid;
+  grid-template-columns: 23% 50% 23%;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES               ID_PROCES               ID_PROCES"
+    "CODI                    TITLE                   TITLE"
+    "ID_FORMABPMN            NOMCURT                 NOMCURT"
+    "ID_TIPUSAGENT           ID_AGENT                ID_AGENT"
+    "ID_TIPUSTASCA           TASCA_PRECEDENT         LINKTITLE"
+    "TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA  TASCA_EVIDENCIAENTRADA"
+    "TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA  TASCA_EVIDENCIASORTIDA"
+    "DESCRIPCIO              DESCRIPCIO              DESCRIPCIO"
+    "errorMessage            errorMessage            errorMessage";
+}
+
+
+
+.SERIEDOCUMENTAL-edit-layout[data-v-e063cd36] {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  margin: 0 auto;
+  grid-column-gap: 12px;
+  grid-template-areas:
+    "ID_PROCES          ID_PROCES         ID_PROCES         ID_PROCES         ID_PROCES             ID_PROCES"
+    "CODI               TITLE             TITLE             TITLE             DIGITAL               VITAL"
+    "CLASSIFICACIO      TITOLCORPORATIU   TITOLCORPORATIU   TITOLCORPORATIU   CARACTER              CARACTER"
+    "ID_TIPUSPRODUCTOR  ID_PRODUCTOR      ID_PRODUCTOR      ID_PRODUCTOR      CRITERINORMALITZACIO  CRITERINORMALITZACIO"
+    ".                  .                 .                 .                 ALTA                  BAIXA"
+    "errorMessage       errorMessage      errorMessage      errorMessage      errorMessage          errorMessage";
+}
+
+.TRACTAMENTDADESPERSONALS-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 18% 43% 10% 15% 18%;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "TITLE                      TITLE                   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA   ID_DISPOSICIONORMATIVA"
+      "ID_TIPUSPROCEDENCIA       ID_PROCEDENCIA           NIVELLDESEGURETAT        RECOLLIDADEDADES         SISTEMATRACTAMENT"
+      "ID_TIPUSRESPONSABLE       ID_RESPONSABLE           PERSONESAFECTADES        PERSONESAFECTADES        PERSONESAFECTADES"
+      "ID_TIPUSRESPONSABLEARCO   ID_RESPONSABLEARCO       FINALITAT                FINALITAT                FINALITAT"
+      "CESSIONSDEDADES           CESSIONSDEDADES          TRANSFERENCIESINT        TRANSFERENCIESINT        TRANSFERENCIESINT"
+      "MESURESDESEGURETAT        MESURESDESEGURETAT       .                        ALTA                     BAIXA"
+      "errorMessage              errorMessage             errorMessage             errorMessage             errorMessage"
+}
+
+.USUARI-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr 6fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "TITLE            TITLE         TITLE"
+      "ID_TIPUSAGENT    ID_AGENT      ID_AGENT"
+      "ALTA             BAIXA         ."
+      "errorMessage     errorMessage  errorMessage";
+  }
+.USUARI-CATALEG-editItem-layout {
+    display: grid;
+    margin: 0 auto;
+    max-width:800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-template-areas:
+      "LOGIN_USUARI    COGNOMSINOM_USUARI  COGNOMSINOM_USUARI    ROL"
+      ".               EMAIL_USUARI        EMAIL_USUARI          EMAIL_USUARI"
+      "errorMessage    errorMessage        errorMessage          errorMessage"
+  }
+.layoutBase-grid[data-v-092e5e47] {
+  display: grid;
+  grid-template-areas: "logo title menu" "content content content";
+  grid-template-columns: 140px 370px auto;
+  grid-template-rows: 80px auto;
+  min-height: 100%;
+}
+.layoutBase-logo[data-v-092e5e47] {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.layoutBase-title[data-v-092e5e47] {
+  grid-area: title;
+  padding: 5px 20px 0 20px;
+  max-height: 95px;
+  margin: 0;
+  overflow: hidden;
+}
+.layoutBase-appTitle[data-v-092e5e47] {
+  font-size: 20px;
+  color: var(--theme-primary, #0078d4);
+}
+.layoutBase-subtitle[data-v-092e5e47] {
+  font-size: 18px;
+  color: var(--theme-secondary, #2b88d8);
+}
+.layoutBase-menu[data-v-092e5e47] {
+  grid-area: menu;
+  max-height: 100px;
+  width: 95%;
+}
+.layoutBase-content[data-v-092e5e47] {
+  position: relative;
+  grid-area: content;
+  border-top: 2px solid var(--theme-primary, #0078d4);
+}
+
+.detailsViewSelect-navTop[data-v-5c441279] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.detailsViewSelect-navBottom[data-v-5c441279] {
+  display: flex;
+  flex-direction: column;
+}
+.detailsViewSelect-navigation[data-v-5c441279] {
+  display: flex;
+}
+.detailsViewSelect-navigation.detailsViewSelect-left[data-v-5c441279] {
+  justify-content: flex-start;
+}
+.detailsViewSelect-navigation.detailsViewSelect-center[data-v-5c441279] {
+  justify-content: center;
+}
+.detailsViewSelect-navigation.detailsViewSelect-right[data-v-5c441279] {
+  justify-content: flex-end;
+}
+
+.menuContextual[data-v-138761e4] {
+  position: absolute;
+}
+.menuContextual.overloaded[data-v-138761e4] {
+  transform: translateX(-100%);
+}
+
+.layoutDetails-commandBar[data-v-bbf1883a] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme-primary, #0078d4);
+}
+.layoutDetails-contextualManu[data-v-bbf1883a] {
+  position: absolute;
+}
+.layoutDetails-contextualManu.overloaded[data-v-bbf1883a] {
+  transform: translateX(-100%);
+}
+
+.layoutListItem-container[data-v-f73b1a8e] {
+  padding: 10px;
+}
+.layoutListItem-left[data-v-f73b1a8e] {
+  margin: 0 0 auto 0;
+}
+.layoutListItem-center[data-v-f73b1a8e] {
+  margin: 0 auto;
+}
+.layoutListItem-right[data-v-f73b1a8e] {
+  margin: 0 0 0 auto;
+}
+.layoutListItem-actions[data-v-f73b1a8e] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.layoutListItem-button[data-v-f73b1a8e] {
+  margin: 10px 5px;
+}
+.layoutListItem-alertButton[data-v-f73b1a8e] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+
+.dictionaryItemEdit-overlay[data-v-1b60de7a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dictionaryItemEdit-dialog[data-v-1b60de7a] {
+  min-width: 500px;
+  overflow-y: visible;
+}
+
+
+.modalOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDialog {
+    min-width: 500px;
+}
+.dialogFooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dialogFooter button {
+    margin: 5px;
+}
+
+
+.listDetailsDefault-overlay[data-v-0871c081] {
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listDetailsDefault-dialog[data-v-0871c081] {
+  min-width: 250px;
+}
+.listDetailsDefault-buttons[data-v-0871c081] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.detailsGrid[data-v-3c346872] {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  width: 100%;
+  table-layout: fixed;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--neutral-primary, var(--neutral-primary, #323130));
+  background: var(--white, var(--white, #ffffff));
+  border-collapse: collapse;
+  border-color: var(--neutral-light, var(--neutral-light, #edebe9));
+  position: relative;
+}
+.detailsGrid tr[data-v-3c346872] {
+  height: 42px;
+}
+.detailsGrid thead tr[data-v-3c346872],
+.detailsGrid tbody tr[data-v-3c346872]:last-of-type {
+  border-bottom: 1px solid var(--neutral-light, var(--neutral-light, #edebe9));
+}
+.detailsGrid tbody tr[data-v-3c346872]:first-of-type {
+  vertical-align: top;
+}
+.detailsGrid tbody tr:first-of-type td[data-v-3c346872] {
+  padding-top: 5px;
+  height: calc(100% - 5px);
+}
+.detailsGrid tbody[data-v-3c346872]:hover {
+  background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
+}
+.detailsGrid tbody td[data-v-3c346872] {
+  height: 42px;
+}
+.detailsGrid-headerCell[data-v-3c346872]:hover {
+  background: var(--neutral-lighter, var(--neutral-lighter, #f3f2f1));
+}
+.detailsGrid-headerTitle[data-v-3c346872] {
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 0px 8px 0px 12px;
+  margin: 0;
+  justify-content: start;
+  align-items: center;
+  outline: 0;
+  user-select: none;
+  display: flex;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.detailsGrid-headerTitle .detailsGrid-headerIcon[data-v-3c346872] {
+  padding-left: 4px;
+}
+.fura-stickyHeader thead th[data-v-3c346872] {
+  position: sticky;
+  top: var(--21b4a0e4);
+  background: var(--white, var(--white, #ffffff));
+  z-index: 1;
+}
+
+.layoutListGrid-commandBar[data-v-7472afbe] {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme-primary, #0078d4);
+}
+.layoutListGrid-details[data-v-7472afbe] .fura-headerTitle {
+  cursor: unset;
+}
+.layoutListGrid-details[data-v-7472afbe] .fura-data td {
+  vertical-align: top;
+}
+.layoutListGrid-navTop[data-v-7472afbe] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.layoutListGrid-navBottom[data-v-7472afbe] {
+  display: flex;
+  flex-direction: column;
+}
+.layoutListGrid-navigation[data-v-7472afbe] {
+  display: flex;
+}
+.layoutListGrid-navigation.layoutListGrid-left[data-v-7472afbe] {
+  justify-content: flex-start;
+}
+.layoutListGrid-navigation.layoutListGrid-center[data-v-7472afbe] {
+  justify-content: center;
+}
+.layoutListGrid-navigation.layoutListGrid-right[data-v-7472afbe] {
+  justify-content: flex-end;
+}
+.layoutListGrid-cellActions[data-v-7472afbe] {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filterForm-checkbox[data-v-275189ca] {
+  margin: 10px 0;
+}
+.filterForm-multiple[data-v-275189ca] {
+  display: flex;
+  justify-content: space-between;
+}
+.filterForm-multiple > div[data-v-275189ca] {
+  flex: 1 1 0px;
+}
+.filterForm-multiple > div[data-v-275189ca]:not(:first-child) {
+  margin-left: 5px;
+}
+.filterForm-multiple > div[data-v-275189ca]:not(:last-child) {
+  margin-right: 5px;
+}
+
+.filterGroups[data-v-72612ae2] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  user-select: none;
+}
+.filterGroups .item .title[data-v-72612ae2] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  height: 44px;
+  margin: 5px 0px;
+  padding-left: 28px;
+  outline: transparent;
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+  text-align: left;
+  line-height: 44px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--neutral-primary, var(--neutral-primary, #323130));
+  background-color: transparent;
+}
+.filterGroups .item .content[data-v-72612ae2] {
+  display: none;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.filterGroups .item .expanderIcon[data-v-72612ae2] {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  left: 8px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  transition: transform 0.1s linear 0s;
+}
+.filterGroups .item.expanded .content[data-v-72612ae2] {
+  display: block;
+}
+.filterGroups .item.expanded .expanderIcon[data-v-72612ae2] {
+  transform: rotate(-180deg);
+}
+.actions[data-v-72612ae2] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.actions > button[data-v-72612ae2] {
+  margin: 10px 5px;
+}
+.clearFilter[data-v-72612ae2] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+.listExport-overlay[data-v-392e43be] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listExport-dialog[data-v-392e43be] {
+  min-width: 250px;
+}
+.dialogAlert-close[data-v-392e43be] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.dialogAlert-close > *[data-v-392e43be] {
+  margin: 0 5px;
+}
+
+.list-view-fields[data-v-5f58ff4a] {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  margin: 6px 0;
+}
+.list-view-field[data-v-5f58ff4a] {
+  flex: 100% 1 1;
+}
+.list-view-orderBy[data-v-5f58ff4a] {
+  flex: 125px 0 0;
+  margin-left: 15px;
+}
+
+
+.baseLayout[data-v-6591ad77] .baseLayout-content {
+  display: flex;
+  justify-content: center;
+}
+.layout[data-v-6591ad77] {
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  grid-template-areas:
+    'error error error'
+    'separatorColumnes . separatorLlista'
+    'fields . name'
+    'fields . viewOptions'
+    'fields . .'
+    'actions actions actions';
+  grid-template-columns: 7fr 30px 4fr;
+  grid-template-rows: 30px 40px 100px 100px auto 50px;
+  margin: 0 auto;
+}
+.separatorLlista[data-v-6591ad77] {
+  grid-area: separatorLlista;
+}
+.separatorColumnes[data-v-6591ad77] {
+  grid-area: separatorColumnes;
+}
+.name[data-v-6591ad77] {
+  grid-area: name;
+}
+.viewOptions[data-v-6591ad77] {
+  grid-area: viewOptions;
+}
+.viewOptions > label[data-v-6591ad77] {
+  margin-top: 20px;
+}
+.fields[data-v-6591ad77] {
+  grid-area: fields;
+}
+.actions[data-v-6591ad77] {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+.errorMessage[data-v-6591ad77] {
+  grid-area: error;
+}
+.actions > button[data-v-6591ad77] {
+  margin: 10px 5px;
+}
+.remove[data-v-6591ad77] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+
+.itemListEdit-container[data-v-e1f6c376] .baseLayout-content {
+  padding: 10px;
+  max-width: calc(100% - 20px);
+}
+
+
+.listItemEditTabChild-overlay[data-v-5697d378] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listItemEditTabChild-dialog[data-v-5697d378] {
+  min-width: 250px;
+  overflow: visible;
+  width: 100%;
+  max-width: var(--4c00a527);
+}
+.listItemEditTabChild-actions[data-v-5697d378] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.listItemEditTabChild-actions > button[data-v-5697d378] {
+  margin: 10px 5px;
+}
+.listItemEditTabChild-remove[data-v-5697d378] {
+  --theme-dark: #b00c1a;
+  --theme-dark-alt: #d10f1f;
+  --theme-darker: #820913;
+  --theme-light: #f8b3b9;
+  --theme-lighter: #fbd6d9;
+  --theme-lighter-alt: #fef5f5;
+  --theme-primary: #e81123;
+  --theme-secondary: #eb2b3b;
+  --theme-tertiary: #f16b76;
+}
+
+
+.modalOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDialog {
+    min-width: 500px;
+}
+.dialogFooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dialogFooter button {
+    margin: 5px;
+}
+
+
+.itemListEdit-container[data-v-a1813330] .baseLayout-content {
+  padding: 10px;
+  max-width: calc(100% - 20px);
+}
+
+.layout[data-v-5bb68f00] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-5bb68f00] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-5bb68f00] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-5bb68f00] {
+  width: 300px;
+}
+.buttons[data-v-5bb68f00] {
+  margin-top: 25px;
+}
+.recovery[data-v-5bb68f00] {
+  margin-top: 10px;
+}
+
+.layout[data-v-31aa8ac4] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-31aa8ac4] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-31aa8ac4] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-31aa8ac4] {
+  width: 300px;
+}
+.buttons[data-v-31aa8ac4] {
+  margin-top: 25px;
+}
+
+.layout[data-v-57aae25c] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-57aae25c] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-57aae25c] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-57aae25c] {
+  width: 300px;
+}
+.buttons[data-v-57aae25c] {
+  margin-top: 25px;
+}
+
+.layout[data-v-5d7407a6] {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label[data-v-5d7407a6] {
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logo[data-v-5d7407a6] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form[data-v-5d7407a6] {
+  width: 300px;
+}
+.buttons[data-v-5d7407a6] {
+  margin-top: 25px;
+}
+.recovery[data-v-5d7407a6] {
+  margin-top: 10px;
+}
+
+
+.notFound-overlay[data-v-5023a390] {
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notFound-dialog[data-v-5023a390] {
+  min-width: 250px;
+}
+.notFound-buttons[data-v-5023a390] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.notFound-buttons > button[data-v-5023a390] {
+  margin: 10px 5px;
+}
+
+
+.IMPORTAR_FLOW_CHART[data-v-0a2b7754] {
+    display: grid;
+    margin: auto;
+    width: fit-content;
+    max-width: 1100px;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 6px;
+    grid-template-areas:
+      "AGENTS  AGENTS"
+      "BOTONS  BOTONS"
+}
+.excel[data-v-0a2b7754] {
+  --theme-primary: green;
+}
+.error[data-v-0a2b7754] {
+  color: #a4262c;
+}
+.boto[data-v-0a2b7754] {
+  padding: 4px;
+  margin-top: 2px;
+  margin-left:4px;
+}
+
+.dialogLoading-overlay[data-v-69be9a34] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogLoading-loading[data-v-69be9a34] {
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.dialogAlert-overlay[data-v-69b9f90a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogAlert-dialog[data-v-69b9f90a] {
+  min-width: 250px;
+}
+.dialogAlert-close[data-v-69b9f90a] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dialogConfirm-overlay[data-v-0cb2bae0] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialogConfirm-dialog[data-v-0cb2bae0] {
+  min-width: 250px;
+}
+.dialogConfirm-close[data-v-0cb2bae0] {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.dialogConfirm-close > button[data-v-0cb2bae0] {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+html, body, #app {
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
